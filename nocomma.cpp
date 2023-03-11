@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-  int first_number = -52; int sum;
+  int first_number = -52, sum;
   double a = first_number;
   int d = a + a;
   bool b = true;

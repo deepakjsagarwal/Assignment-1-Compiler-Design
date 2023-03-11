@@ -23,6 +23,7 @@ int main()
   if (true)
   {
     cout << "how are you";
+    int my_value = 2;
   }
 
   // prints sum
