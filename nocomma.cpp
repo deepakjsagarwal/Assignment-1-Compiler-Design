@@ -4,13 +4,15 @@ using namespace std;
 int main()
 {
 
-  int first_number; int sum;
+  int first_number = -52; int sum;
   double a = first_number;
   int d = a + a;
-  //bool b = true;
+  bool b = true;
+  string s = "anand";
+  char a = 'a';
 
-//   cout << "Enter two integers: ";
-//   cin >> first_number;
+  //   cout << "Enter two integers: ";
+  //   cin >> first_number;
 
   // sum of two numbers in stored in variable sumOfTwoNumbers
   sum = first_number;
@@ -19,10 +21,12 @@ int main()
   {
 //     cout << "how are you";
       int my_num = first_number+a;
+  } else {
+      int b = 2;
   }
 
   // prints sum
-  cout << first_number << " + "<< " = " << sum;
+  // cout << first_number << " + "<< " = " << sum;
 
-  return 0;
+  // return 0;
 }
