@@ -17,10 +17,16 @@ int main()
   // sum of two numbers in stored in variable sumOfTwoNumbers
   sum = first_number;
 
+  int i;
+  for (int i = 2, j = 5; i < 5;  i=i+1)
+  {
+    j = 6;
+  }
+
   if (true)
   {
-//     cout << "how are you";
-      int my_num = first_number+a;
+    //     cout << "how are you";
+    int my_num = first_number + a;
   } else {
       int b = 2;
   }
