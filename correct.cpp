@@ -2,7 +2,7 @@
 using namespace std;
 
 void print(string s){
-    // cout<<"String is: "<<s<<endl;
+    cout<<"String is: "<<s<<endl;
 }
 
 int add(int a, int b){
@@ -17,7 +17,7 @@ int add(int a, int b){
 int main(){
 
     int t = 1;
-    // cin>>t;
+    cin>>t;
     int a = 5,b = 4,c = a+b;
     float f1 = 4.20,f2=7.86;
     char ch1 = 'a',ch2;
