@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int t = 100;
 
-    // if else checking
+    // do while checking
     do{
         cout<<"t: "<<t<<endl;
         t--;
