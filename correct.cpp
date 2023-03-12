@@ -8,12 +8,10 @@ void print(string s){
 int add(int a, int b){
     if(true){
         int c = a+b;
-        return a + b;
-    }
-    else
-    {
+        return c;
+    }else{
         int d = a+b;
-        return d;
+        return a+b;
     }
 }
 int main(){
@@ -29,6 +27,8 @@ int main(){
         /*
             True if both char match
         */
+       double d1 = 4.0;
+
     }else{
         if(f1+1==f2){
             // True if condition satisfy
@@ -38,7 +38,16 @@ int main(){
     // for loop checking
     int i = 0;
     for(;i<a+c;i+=1){
-        b+=-(2*i+(a/2+c));  // Expression checking
+        b+=-(2*i+(a/2+c)+(12+c/3)/f1);  // Expression checking
+
+        string s1 = "Hello";
+        if(s1=="Hello"){
+            int d = 0;
+            d+=c;
+            print(s1);
+        }else{
+            b*=c;
+        }
     }
     //while loop checking
     while(t -= 1){
