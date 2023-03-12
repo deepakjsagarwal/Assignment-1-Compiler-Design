@@ -8,10 +8,12 @@ void print(string s){
 int add(int a, int b){
     if(true){
         int c = a+b;
-        // return c;
-    }else{
+        return a + b;
+    }
+    else
+    {
         int d = a+b;
-        // return d;
+        return d;
     }
 }
 int main(){
@@ -49,5 +51,5 @@ int main(){
         print(s);
     }while(true);
 
-    // return 0;
+    return 0;
 }
