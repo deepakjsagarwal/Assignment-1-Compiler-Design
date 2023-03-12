@@ -7,7 +7,7 @@ int sum(int a, int b){
 }
 int main(){
     int x = 1,y=2;
-    sum(x);
+    sum(x,y);
 
     return 0;
 }
