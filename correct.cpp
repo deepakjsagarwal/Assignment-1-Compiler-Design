@@ -37,7 +37,7 @@ int main(){
 
     // for loop checking
     int i = 0;
-    for(;i<a+c;i+=1){
+    for(;i<a+c; ++i){
         b+=-(2*i+(a/2+c)+(12+c/3)/f1);  // Expression checking
 
         string s1 = "Hello";
@@ -59,6 +59,9 @@ int main(){
         string s = "I am string checking code.";
         print(s);
     }while(true);
+
+    char c = 'a';
+    char p = c++;
 
     return 0;
 }
