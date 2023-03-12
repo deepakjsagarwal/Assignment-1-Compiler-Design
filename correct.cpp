@@ -2,22 +2,22 @@
 using namespace std;
 
 void print(string s){
-    cout<<"String is: "<<s<<endl;
+    // cout<<"String is: "<<s<<endl;
 }
 
 int add(int a, int b){
     if(true){
         int c = a+b;
-        return c;
+        // return c;
     }else{
         int d = a+b;
-        return d;
+        // return d;
     }
 }
 int main(){
 
     int t = 1;
-    cin>>t;
+    // cin>>t;
     int a = 5,b = 4,c = a+b;
     float f1 = 4.20,f2=7.86;
     char ch1 = 'a',ch2;
@@ -35,11 +35,11 @@ int main(){
 
     // for loop checking
     int i = 0;
-    for(;i<a+c;i++){
+    for(;i<a+c;i+=1){
         b+=-(2*i+(a/2+c));  // Expression checking
     }
     //while loop checking
-    while(t--){
+    while(t -= 1){
         f1 -= 4*f2+a-c;
     }
 
@@ -49,5 +49,5 @@ int main(){
         print(s);
     }while(true);
 
-    return 0;
+    // return 0;
 }
